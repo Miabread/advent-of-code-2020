@@ -10,7 +10,7 @@ pub fn input_generator(input: &str) -> Vec<u32> {
         .collect() // Collect all good results or fail
 }
 
-const TARGET: u32 = 2020;
+pub const TARGET: u32 = 2020;
 
 #[aoc(day1, part1, for_loop)]
 pub fn solve_part1_for_loop(input: &[u32]) -> Option<u32> {

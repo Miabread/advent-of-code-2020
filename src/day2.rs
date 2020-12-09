@@ -38,7 +38,7 @@ fn parse_entry(input: &str) -> Option<PasswordEntry> {
 }
 
 #[aoc(day2, part1)]
-fn solve_part1(input: &[PasswordEntry]) -> usize {
+pub fn solve_part1(input: &[PasswordEntry]) -> usize {
     input
         .iter()
         .map(|entry| {
@@ -56,7 +56,7 @@ fn solve_part1(input: &[PasswordEntry]) -> usize {
 }
 
 #[aoc(day2, part2)]
-fn solve_part2(input: &[PasswordEntry]) -> usize {
+pub fn solve_part2(input: &[PasswordEntry]) -> usize {
     input
         .iter()
         .map(|entry| {
