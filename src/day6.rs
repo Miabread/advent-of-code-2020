@@ -1,5 +1,5 @@
 use itertools::Itertools;
-use std::collections::{HashMap, HashSet};
+use std::collections::HashMap;
 
 #[aoc_generator(day6)]
 pub fn input_generator(input: &str) -> Vec<Vec<Vec<char>>> {
